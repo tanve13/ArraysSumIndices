@@ -1,7 +1,5 @@
 
 import java.util.HashMap;
-
-
 public class TwoSum{
     public static void main(String[] args) {
         int arr[]={11,3,7,9,14,2};
@@ -15,8 +13,7 @@ public class TwoSum{
             ans[0] = map.get(sno);
             ans[1] = i;
             break;
-
-        }
+            }
                     map.put(arr[i], i);
 
         }
